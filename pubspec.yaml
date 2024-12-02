@@ -1,0 +1,159 @@
+name: flutter_sample_todo_app
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Date
+  intl: ^0.20.1
+
+  # Data share
+  share_plus: ^7.2.2
+
+  # Dialog
+  adaptive_dialog: ^1.9.0
+
+  # Firebase
+  cloud_firestore: ^5.5.0
+  firebase_analytics: ^11.3.5
+  firebase_auth: ^5.3.3
+  firebase_core: ^3.8.0
+
+  # Info
+  device_info_plus: ^10.0.1
+  package_info_plus: ^8.1.1
+
+  # Launcher
+  url_launcher: ^6.2.5
+
+  # LocalDatabase
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  shared_preferences: ^2.2.2
+
+  # Logger
+  simple_logger: ^1.9.0
+
+  # Other
+  collection: ^1.18.0
+  cupertino_icons: ^1.0.8
+  equatable: ^2.0.7
+  uuid: ^4.5.1
+
+  # PullToRefresh
+  pull_to_refresh_flutter3: ^2.0.2
+
+  # Review
+  launch_app_store: ^1.0.2
+
+  # Riverpod
+  flutter_hooks: ^0.20.5
+  freezed_annotation: ^2.4.4
+  hooks_riverpod: ^2.5.4
+  json_annotation: ^4.9.0
+  riverpod_annotation: ^2.6.1
+
+  # Router
+  go_router: ^14.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code generator
+  build_runner: ^2.4.13
+  freezed: ^2.5.7
+  flutter_gen_runner: ^5.8.0
+  go_router_builder: ^2.7.1
+  riverpod_generator: ^2.6.3
+
+  # Static analysis
+  custom_lint: ^0.7.0
+  pedantic_mono: ^1.29.0
+  riverpod_lint: ^2.6.3
+
+  # Serializer
+  json_serializable: ^6.9.0
+
+  # Other
+  flutter_launcher_icons: ^0.14.1
+  package_rename: ^1.7.1
+
+dependency_overrides:
+  analyzer: ^6.7.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/icon/app_icon_12.png"
+  image_path_ios: "assets/icon/app_icon_12.png"
+  adaptive_icon_foreground: "assets/icon/adaptive_icon_foreground.png"
+  adaptive_icon_background: "#FFFFFF"
+
+flutter_gen:
+  # https://github.com/FlutterGen/flutter_gen#configuration-file
+  output: lib/core/gen/  # Optional (default: lib/gen/)
+  line_length: 80 # Optional (default: 80)
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icon/
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Inter-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Inter-Thin.ttf
+          weight: 100
+
+package_rename_config:
+  android:
+    app_name: flutter_sample_todo_app
+    package_name: app.product.todo
+
+  ios:
+    app_name: plain
+    bundle_name: flutter_sample_todo_app
+    package_name: app.product.todo
+
+  linux:
+    app_name: flutter_sample_todo_app
+    package_name: app.product.todo
+    exe_name: plain
+
+  macos:
+    app_name: flutter_sample_todo_app
+    package_name: app.product.todo
+    copyright_notice: Never inc.
+
+  web:
+    app_name: flutter_sample_todo_app
+    description: This is flutter sample todo app.
+
+  windows:
+    app_name: flutter_sample_todo_app
+    organization: Never inc.
+    copyright_notice: Never inc.
+    exe_name: flutter_sample_todo_app

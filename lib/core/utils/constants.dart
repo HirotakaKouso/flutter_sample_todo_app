@@ -1,0 +1,2 @@
+const termsOfRulesUrl = '';
+const privacyPolicyUrl = '';
