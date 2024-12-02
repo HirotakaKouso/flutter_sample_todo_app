@@ -10,9 +10,9 @@
 
 ## Getting Started（Firebase設定）
 
-1. Firebase CLIとFlutterFire CLIをインストール(インストール済みの場合は不要) :
-   `npm install -g firebase-tools`
+1. Firebase CLIとFlutterFire CLIをインストール(インストール済みの場合は不要) :  
+   `npm install -g firebase-tools`  
    `dart pub global activate flutterfire_cli`
-2. `firebase login`でfirebaseにログインする
-3. `flutterfire configure`でFirebaseプロジェクトを選択する
+3. `firebase login`でfirebaseにログインする
+4. `flutterfire configure`でFirebaseプロジェクトを選択する
 
