@@ -15,4 +15,4 @@
    `dart pub global activate flutterfire_cli`
 2. `firebase login`でfirebaseにログインする
 3. `flutterfire configure`でFirebaseプロジェクトを選択する
-# flutter_sample_todo_app
+
